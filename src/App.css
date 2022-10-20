@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Font";
+  src: local("Font"),
+   url("./Assets/Fonts/ProductSans-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "FontLight";
+    src: local("FontLight"),
+     url("./Assets/Fonts/ProductSans-Light.ttf") format("truetype");
+    }
+body{
+    font-family: "Font";
+}

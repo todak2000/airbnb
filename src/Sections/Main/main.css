@@ -1,0 +1,60 @@
+.main-container{
+    width: 90%;
+    padding: 1% 5%;
+    
+}
+.tab-container{
+    width:70%;
+    padding-left:55%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.tab-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+.tab-child{
+    display: flex;
+    flex-direction: column;
+    padding:0 4%;
+    cursor: pointer;
+    justify-content: space-evenly;
+    align-items: center;
+    width:600px;
+}
+.chevron{
+    cursor: pointer;
+}
+.card-div{
+    margin-top:1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.active-tab{
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.8);
+}
+.tab-child:hover{
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.1);
+}
+.row-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+@media (max-width: 768px) {
+    .sticky {
+        position: sticky;
+        top: 14vh;
+        background-color: #ffffff;
+        z-index: 20;
+    }
+}
